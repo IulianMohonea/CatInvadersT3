@@ -1,6 +1,6 @@
 
 #include "Game.h"
 int main() {
-    auto& x = Game::get_app();
+    [[maybe_unused]] auto& x = Game::get_app();
     return 0;
 }
